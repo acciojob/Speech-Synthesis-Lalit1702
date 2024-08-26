@@ -29,14 +29,7 @@
     </div>
 
 <script>
-  const msg = new SpeechSynthesisUtterance();
-  let voices = [];
-  const voicesDropdown = document.querySelector('[name="voice"]');
-  const options = document.querySelectorAll('[type="range"], [name="text"]');
-  const speakButton = document.querySelector('#speak');
-  const stopButton = document.querySelector('#stop');
-
-	<script>
+  
   const msg = new SpeechSynthesisUtterance();
   let voices = [];
   const voicesDropdown = document.querySelector('[name="voice"]');
@@ -73,9 +66,7 @@
   stopButton.addEventListener('click', () => speechSynthesis.cancel());
 
   msg.text = document.querySelector('[name="text"]').value;
-</script>
 
-  //Your code goes here
 </script>
 
 </body>
